@@ -3,7 +3,7 @@
 package memorymanager.Processes;
 
 //A process has a PID and a size that it will need to take up in memory.
-//User can handle burst times and when processes would get removed if they wanted to do so.
+//Burst times are handled by the user themselves.
 public class Process 
 {
     private int PID;
