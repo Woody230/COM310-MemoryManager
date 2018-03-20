@@ -69,9 +69,6 @@ public class MemoryPanel extends JPanel
     
     public void validateComponents()
     {
-        //TESTING
-        //long startTime = System.currentTimeMillis();
-        
         removeAll();
         setComponents();
         
@@ -111,10 +108,6 @@ public class MemoryPanel extends JPanel
         revalidate();
         repaint();
         
-        //TESTING
-        //blockList.outputBlockList();
-        //long endTime = System.currentTimeMillis();
-        //System.out.println("Memory Panel Validation: " + (endTime - startTime));
     }//end method
     
     //Resets the components and recreates the attributes associated with the container's components.

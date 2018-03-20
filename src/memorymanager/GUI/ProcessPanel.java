@@ -191,8 +191,6 @@ public class ProcessPanel extends JPanel
     //Activates the algorithm on each process in the waiting queue. 
     public void tryToAddWaitingProcessesToMemory()
     {
-//        long startTime = System.currentTimeMillis();
-        
         //processList's numProcessesWaiting will change when waiting processes are removed so this variable is necessary
         int numProcessesWaiting = processList.getNumProcessesWaiting();
         
@@ -202,9 +200,6 @@ public class ProcessPanel extends JPanel
             activateAlgorithm(processList.getFirstProcessWaiting()); 
             processList.removeFirstWaitingProcess();
         }//end loop
-        
-//        long endTime = System.currentTimeMillis();
-//        System.out.println("tryToAddWaitingProcessesToMemory: " + (endTime - startTime));
     }//end method
     
     //Activates the algorithm for each process (including waiting queue) with a new randomized size.

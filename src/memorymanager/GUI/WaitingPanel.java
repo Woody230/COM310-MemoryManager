@@ -44,9 +44,6 @@ public class WaitingPanel extends JPanel
     
     public void validateComponents()
     {
-        //TESTING
-        //long startTime = System.currentTimeMillis();
-        
         removeAll();
         setComponents();
         gbc.anchor = GridBagConstraints.EAST;
@@ -87,10 +84,6 @@ public class WaitingPanel extends JPanel
         
         revalidate();
         repaint();
-        
-        //TESTING
-        //long endTime = System.currentTimeMillis();
-        //System.out.println("Waiting Panel Validation: " + (endTime - startTime));
     }//end method
     
     private void setComponents()

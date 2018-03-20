@@ -211,14 +211,7 @@ public class PropertiesPanel extends JPanel
         @Override
         public void actionPerformed(ActionEvent ae)
         {
-            //TESTING
-            //long startTime = System.currentTimeMillis();
-            
             processPanel.setRandomSizesForAllProcesses();
-            
-            //TESTING
-            //long endTime = System.currentTimeMillis();
-            //System.out.println("Total Time: " + (endTime - startTime));
         }//end method
     }//end AL class
     
