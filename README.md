@@ -1,3 +1,3 @@
 # MemoryManager
 
-![](MemoryManagerImage.png)
+![](MemoryManagerImage.PNG)
